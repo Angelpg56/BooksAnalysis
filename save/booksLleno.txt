@@ -1,0 +1,47 @@
+Harper Lee;Fiction;To Kill a Mockingbird;1960
+George Orwell;Dystopian;1984;1949
+F. Scott Fitzgerald;Fiction;The Great Gatsby;1925
+Herman Melville;Adventure;Moby Dick;1851
+Jane Austen;Romance;Pride and Prejudice;1813
+Leo Tolstoy;Historical Fiction;War and Peace;1869
+Fyodor Dostoevsky;Philosophical Fiction;Crime and Punishment;1866
+J.R.R. Tolkien;Fantasy;The Lord of the Rings;1954
+J.R.R. Tolkien;Fantasy;The Hobbit;1937
+Ray Bradbury;Dystopian;Fahrenheit 451;1953
+Aldous Huxley;Dystopian;Brave New World;1932
+George Orwell;Political Satire;Animal Farm;1945
+Fyodor Dostoevsky;Philosophical Fiction;The Brothers Karamazov;1880
+James Joyce;Modernist Fiction;Ulysses;1922
+Dante Alighieri;Epic;The Divine Comedy;1320
+Charles Dickens;Historical Fiction;A Tale of Two Cities;1859
+Miguel de Cervantes;Adventure;Don Quixote;1605
+Oscar Wilde;Philosophical Fiction;The Picture of Dorian Gray;1890
+Charlotte Brontë;Romance;Jane Eyre;1847
+Emily Brontë;Gothic Fiction;Wuthering Heights;1847
+Alexandre Dumas;Adventure;The Count of Monte Cristo;1844
+Victor Hugo;Historical Fiction;Les Misérables;1862
+John Steinbeck;Historical Fiction;The Grapes of Wrath;1939
+John Steinbeck;Fiction;East of Eden;1952
+John Steinbeck;Fiction;Of Mice and Men;1937
+Gabriel García Márquez;Magical Realism;One Hundred Years of Solitude;1967
+Gabriel García Márquez;Romance;Love in the Time of Cholera;1985
+Vladimir Nabokov;Fiction;Lolita;1955
+Franz Kafka;Surrealism;The Metamorphosis;1915
+Franz Kafka;Philosophical Fiction;The Trial;1925
+Albert Camus;Existentialism;The Stranger;1942
+Ernest Hemingway;Fiction;The Sun Also Rises;1926
+Ernest Hemingway;War Fiction;For Whom the Bell Tolls;1940
+Ernest Hemingway;War Fiction;A Farewell to Arms;1929
+Ernest Hemingway;Fiction;The Old Man and the Sea;1952
+Kurt Vonnegut;Science Fiction;Slaughterhouse-Five;1969
+Joseph Heller;Satire;Catch-22;1961
+Cormac McCarthy;Post-apocalyptic Fiction;The Road;2006
+Cormac McCarthy;Western;Blood Meridian;1985
+Cormac McCarthy;Thriller;No Country for Old Men;2005
+Stephen King;Horror;The Shining;1977
+Stephen King;Horror;It;1986
+Stephen King;Post-apocalyptic Fiction;The Stand;1978
+Bram Stoker;Gothic Horror;Dracula;1897
+Mary Shelley;Science Fiction;Frankenstein;1818
+H.G. Wells;Science Fiction;The War of the Worlds;1898
+J.D. Salinger;The Catcher in the Rye;The Catcher in the Rye;1949

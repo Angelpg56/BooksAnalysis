@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"edu.psp.booksanalysis.model","l":"Book"},{"p":"edu.psp.booksanalysis.utils","l":"FileUtils"},{"p":"edu.psp.booksanalysis","l":"MainApplication"},{"p":"edu.psp.booksanalysis","l":"MainController"},{"p":"edu.psp.booksanalysis.utils","l":"MessageUtils"}];updateSearchResults();

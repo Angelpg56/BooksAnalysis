@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="465.0" prefWidth="750.0" spacing="20.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.psp.booksanalysis.MainController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <BorderPane prefHeight="435.0" prefWidth="709.0">
+      <top>
+      
+        <Label fx:id="lbl_TopText" alignment="CENTER" contentDisplay="CENTER" text="Library analysis" textFill="#a60303" BorderPane.alignment="CENTER">
+            <font>
+               <Font name="Gill Sans Ultra Bold" size="20.0" />
+            </font>
+         </Label>
+      </top>
+      <center>
+         <HBox prefHeight="350.0" prefWidth="462.0" BorderPane.alignment="CENTER">
+            <children>
+               <TableView fx:id="tv_Libros" onMouseClicked="#selectBook" prefHeight="350.0" prefWidth="466.0">
+                 <columns>
+                   <TableColumn fx:id="tc_Title" prefWidth="184.19997787475586" text="Title" />
+                   <TableColumn fx:id="tc_Author" minWidth="0.0" prefWidth="97.20002746582031" text="Author" />
+                     <TableColumn fx:id="tc_Genre" prefWidth="117.19998168945312" text="Genre" />
+                     <TableColumn fx:id="tc_Year" prefWidth="64.0" text="Year" />
+                 </columns>
+               </TableView>
+            </children>
+            <BorderPane.margin>
+               <Insets bottom="10.0" top="10.0" />
+            </BorderPane.margin>
+            <padding>
+               <Insets right="10.0" />
+            </padding>
+         </HBox>
+      </center>
+      <bottom>
+         <ChoiceBox fx:id="cb_Filter" prefWidth="150.0" BorderPane.alignment="CENTER" />
+      </bottom>
+      <right>
+         <VBox minWidth="204.0" prefHeight="358.0" prefWidth="222.0" style="-fx-background-color: brown;" BorderPane.alignment="CENTER">
+            <children>
+               <FlowPane alignment="CENTER_RIGHT" columnHalignment="RIGHT" hgap="10.0" maxWidth="1.7976931348623157E308" prefHeight="6.0" prefWidth="167.0" vgap="5.0">
+                  <children>
+                     <Label fx:id="lbl_Title" text="Title" textFill="WHITE">
+                        <font>
+                           <Font name="Footlight MT Light" size="12.0" />
+                        </font></Label>
+                     <TextField fx:id="txt_Title" prefHeight="26.0" prefWidth="139.0" />
+                  </children>
+                  <padding>
+                     <Insets bottom="5.0" left="10.0" />
+                  </padding>
+                  <VBox.margin>
+                     <Insets right="10.0" top="10.0" />
+                  </VBox.margin>
+               </FlowPane>
+               <FlowPane alignment="CENTER_RIGHT" columnHalignment="RIGHT" hgap="10.0" layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308" prefHeight="6.0" prefWidth="167.0">
+                  <children>
+                     <Label fx:id="lbl_Author" text="Author" textFill="WHITE">
+                        <font>
+                           <Font name="Footlight MT Light" size="12.0" />
+                        </font></Label>
+                     <TextField fx:id="txt_Author" prefHeight="26.0" prefWidth="139.0" />
+                  </children>
+                  <padding>
+                     <Insets bottom="5.0" left="10.0" />
+                  </padding>
+                  <VBox.margin>
+                     <Insets right="10.0" />
+                  </VBox.margin>
+               </FlowPane>
+               <FlowPane alignment="CENTER_RIGHT" columnHalignment="RIGHT" hgap="10.0" layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308" prefHeight="6.0" prefWidth="167.0">
+                  <children>
+                     <Label fx:id="lbl_Genre" text="Genre" textFill="WHITE">
+                        <font>
+                           <Font name="Footlight MT Light" size="12.0" />
+                        </font></Label>
+                     <TextField fx:id="txt_Genre" prefHeight="26.0" prefWidth="139.0" />
+                  </children>
+                  <padding>
+                     <Insets bottom="5.0" left="10.0" />
+                  </padding>
+                  <VBox.margin>
+                     <Insets right="10.0" />
+                  </VBox.margin>
+               </FlowPane>
+               <FlowPane alignment="CENTER_RIGHT" columnHalignment="RIGHT" hgap="10.0" layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308" prefHeight="6.0" prefWidth="167.0">
+                  <children>
+                     <Label fx:id="lbl_Year" text="Year" textFill="WHITE">
+                        <font>
+                           <Font name="Footlight MT Light" size="12.0" />
+                        </font></Label>
+                     <TextField fx:id="txt_Year" prefHeight="26.0" prefWidth="139.0" />
+                  </children>
+                  <padding>
+                     <Insets bottom="5.0" left="10.0" />
+                  </padding>
+                  <VBox.margin>
+                     <Insets right="10.0" />
+                  </VBox.margin>
+               </FlowPane>
+               <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                  <children>
+                     <Button fx:id="btn_Add" mnemonicParsing="false" onAction="#addBook" style="-fx-background-color: black;" text="Add" textFill="WHITE">
+                        <HBox.margin>
+                           <Insets right="10.0" />
+                        </HBox.margin>
+                        <font>
+                           <Font name="Bell MT" size="12.0" />
+                        </font></Button>
+                     <Button fx:id="btn_Update" alignment="CENTER" mnemonicParsing="false" onAction="#updateBook" style="-fx-background-color: black;" text="Update" textFill="WHITE">
+                        <HBox.margin>
+                           <Insets right="10.0" />
+                        </HBox.margin>
+                        <font>
+                           <Font name="Bell MT" size="12.0" />
+                        </font></Button>
+                     <Button fx:id="btn_Delete" alignment="CENTER_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#deleteBook" style="-fx-background-color: black;" text="Delete" textFill="WHITE">
+                        <font>
+                           <Font name="Bell MT" size="12.0" />
+                        </font></Button>
+                  </children>
+               </HBox>
+               <Label fx:id="lbl_Search" text="Search:" textFill="WHITE">
+                  <font>
+                     <Font name="Britannic Bold" size="12.0" />
+                  </font>
+                  <VBox.margin>
+                     <Insets bottom="3.0" />
+                  </VBox.margin></Label>
+               <TextField fx:id="txt_Search" onKeyReleased="#searchBook">
+                  <VBox.margin>
+                     <Insets bottom="10.0" left="10.0" right="10.0" />
+                  </VBox.margin></TextField>
+            </children>
+            <padding>
+               <Insets left="5.0" />
+            </padding>
+            <BorderPane.margin>
+               <Insets bottom="10.0" top="10.0" />
+            </BorderPane.margin>
+         </VBox>
+      </right>
+   </BorderPane>
+</VBox>
